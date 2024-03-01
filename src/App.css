@@ -1,0 +1,55 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cars
+{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+  padding: 20px;
+  
+}
+.each-car
+{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+.products
+{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:greenyellow;
+  padding: 20px;
+  
+}
+.each-product
+{
+  border: 1px solid black;
+  padding: 10px;
+  background-color:lightsalmon;
+}
+.lorem
+{
+  width: 100%;
+  border: 1px solid black;
+}
+
+.header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: royalblue;
+  height: 50px;
+}
+.home,.about,.service,.contact
+{
+  margin-top: 50px;
+}
